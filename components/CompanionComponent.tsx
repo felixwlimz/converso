@@ -82,6 +82,7 @@ const CompanionComponent = ({
       vapi.off("speech-start", onSpeechStart);
       vapi.off("speech-end", onSpeechEnd);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const toggleMicrophone = () => {
