@@ -1,12 +1,11 @@
 import { PricingTable } from "@clerk/nextjs";
 
-// umjmoRJEGZ18iaga
 
 const Subcriptions = () => {
   return (
-    <div>
+    <main>
        <PricingTable/>
-    </div>
+    </main>
   );
 };
 
